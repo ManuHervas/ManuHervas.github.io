@@ -1,0 +1,21 @@
+
+public class TestCalculadora {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Tutorial trabajo;
+		
+		trabajo= new Tutorial();
+		
+		System.out.println("La suma es: " + trabajo.sumar("4","5"));
+		
+		System.out.println("La resta es: " + trabajo.resta("4","5"));
+		
+		System.out.println("La multiplicacion es: " + trabajo.multiplicar("4","5"));
+		
+		System.out.println("la division es: " + trabajo.dividir("4", "5"));
+
+	}
+
+}
